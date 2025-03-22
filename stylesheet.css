@@ -53,8 +53,22 @@ html {
   max-width: 100%;
 }
 
-.kyotoPhotograph:hover {
-  opacity: 80%;
+.kyotoImageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.kyotoImageContainer:hover .overlay {
+  opacity: 40%;
+}
+
+.kyotoTitleText {
+  color: white;
+  font-size: 45rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
 }
 
 .mtFujiPhotograph {
