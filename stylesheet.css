@@ -12,15 +12,27 @@
     height: auto;
     max-width: 100%;
   }
+  
+  .tokyoPhotograph:hover {
+    opacity: 80%;
+  }
 
   .kyotoPhotograph {
     height: auto;
     max-width: 100%;
   }
 
+  .kyotoPhotograph:hover{
+    opacity: 80%;
+  }
+
   .mtFujiPhotograph {
     height: auto;
     max-width: 100%;
+  }
+
+  .mtFujiPhotograph:hover{
+    opacity: 80%;
   }
 
  .fbIcon {
