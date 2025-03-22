@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .tokyoPhotograph {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .kyotoPhotograph {
+    height: auto;
+    max-width: 100%;
+  }
+
+  .mtFujiPhotograph {
+    height: auto;
+    max-width: 100%;
+  }
+
+ .fbIcon {
+  height: 2rem;
+ }
+
+ .xIcon {
+  height: 2rem;
+ }
+
+ .instagramIcon {
+height: 2rem;
+ }
