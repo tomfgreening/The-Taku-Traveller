@@ -5,6 +5,7 @@ console.log(
 const learnMoreButton = document.getElementById("learnMoreButton");
 const tokyoParagraph = document.getElementById("tokyoParagraph");
 
-learnMoreButton.addEventListener('click', function () {
-  tokyoParagraph.style.display = 'block';
+learnMoreButton.addEventListener("click", function (event) {
+  learnMoreButton.style.display = "none";
+  tokyoParagraph.style.display = "block";
 });
