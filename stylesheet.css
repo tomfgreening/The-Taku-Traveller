@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
@@ -21,4 +21,10 @@
   .mtFujiPhotograph {
     height: auto;
     max-width: 100%;
+  }
+
+  .socialMediaIcons {
+    height: auto;
+    width: auto;
+    size: 2rem;
   }
