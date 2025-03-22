@@ -1,55 +1,68 @@
 * {
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
+.tokyoPhotograph {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 
-  
-  .tokyoPhotograph {
-    height: auto;
-    max-width: 100%;
-  }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: whitesmoke;
+}
 
-  .tokyoTitleText{
-    color: slategray;
-    font-size: large;
-  }
-  
-.tokyoImageContainer:hover .tokyoTitleText{
+.tokyoImageContainer:hover .overlay {
   opacity: 80%;
 }
 
-  .kyotoPhotograph {
-    height: auto;
-    max-width: 100%;
-  }
+.tokyoTitleText {
+  color: slategray;
+  font-size: xx-large;
+  text-align: center;
+}
 
-  .kyotoPhotograph:hover{
-    opacity: 80%;
-  }
+.kyotoPhotograph {
+  height: auto;
+  max-width: 100%;
+}
 
-  .mtFujiPhotograph {
-    height: auto;
-    max-width: 100%;
-  }
+.kyotoPhotograph:hover {
+  opacity: 80%;
+}
 
-  .mtFujiPhotograph:hover{
-    opacity: 80%;
-  }
+.mtFujiPhotograph {
+  height: auto;
+  max-width: 100%;
+}
 
- .fbIcon {
+.mtFujiPhotograph:hover {
+  opacity: 80%;
+}
+
+.fbIcon {
   height: 2rem;
- }
+}
 
- .xIcon {
+.xIcon {
   height: 2rem;
- }
+}
 
- .instagramIcon {
-height: 2rem;
- }
+.instagramIcon {
+  height: 2rem;
+}
