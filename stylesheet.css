@@ -14,6 +14,11 @@ html {
   max-width: 100%;
 }
 
+.tokyoImageContainer {
+  position: relative;
+  width: 100%;
+}
+
 .overlay {
   position: absolute;
   top: 0;
@@ -24,15 +29,15 @@ html {
   width: 100%;
   opacity: 0;
   transition: 0.5s ease;
-  background-color: whitesmoke;
+  background-color: black;
 }
 
 .tokyoImageContainer:hover .overlay {
-  opacity: 80%;
+  opacity: 33%;
 }
 
 .tokyoTitleText {
-  color: slategray;
+  color: white;
   font-size: xx-large;
   text-align: center;
 }
