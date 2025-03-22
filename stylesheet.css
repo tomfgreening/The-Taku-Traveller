@@ -23,8 +23,14 @@
     max-width: 100%;
   }
 
-  .socialMediaIcons {
-    height: auto;
-    width: auto;
-    size: 2rem;
-  }
+ .fbIcon {
+  height: 2rem;
+ }
+
+ .xIcon {
+  height: 2rem;
+ }
+
+ .instagramIcon {
+height: 2rem;
+ }
