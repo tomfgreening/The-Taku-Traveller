@@ -8,14 +8,21 @@
     scroll-behavior: smooth;
   }
 
+
+  
   .tokyoPhotograph {
     height: auto;
     max-width: 100%;
   }
-  
-  .tokyoPhotograph:hover {
-    opacity: 80%;
+
+  .tokyoTitleText{
+    color: slategray;
+    font-size: large;
   }
+  
+.tokyoImageContainer:hover .tokyoTitleText{
+  opacity: 80%;
+}
 
   .kyotoPhotograph {
     height: auto;
