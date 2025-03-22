@@ -44,7 +44,7 @@ html {
   font-size: 45rem;
   font-weight: bolder;
   font-style: oblique;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
 }
 
@@ -67,7 +67,7 @@ html {
   font-size: 45rem;
   font-weight: bolder;
   font-style: oblique;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
 }
 
@@ -76,8 +76,22 @@ html {
   max-width: 100%;
 }
 
-.mtFujiPhotograph:hover {
-  opacity: 80%;
+.mtFujiImageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.mtFujiImageContainer:hover .overlay {
+  opacity: 40%;
+}
+
+.mtFujiTitleText {
+  color: white;
+  font-size: 45rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
 }
 
 .fbIcon {
