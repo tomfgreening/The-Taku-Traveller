@@ -1,36 +1,107 @@
 * {
-    border: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-  html {
-    scroll-behavior: smooth;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
-  .tokyoPhotograph {
-    height: auto;
-    max-width: 100%;
-  }
+.tokyoPhotograph {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 
-  .kyotoPhotograph {
-    height: auto;
-    max-width: 100%;
-  }
+.tokyoImageContainer {
+  position: relative;
+  width: 100%;
+}
 
-  .mtFujiPhotograph {
-    height: auto;
-    max-width: 100%;
-  }
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- .fbIcon {
+.tokyoImageContainer:hover .overlay {
+  opacity: 40%;
+}
+
+.tokyoTitleText {
+  color: white;
+  font-size: 45rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.kyotoPhotograph {
+  height: auto;
+  max-width: 100%;
+}
+
+.kyotoImageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.kyotoImageContainer:hover .overlay {
+  opacity: 40%;
+}
+
+.kyotoTitleText {
+  color: white;
+  font-size: 45rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.mtFujiPhotograph {
+  height: auto;
+  max-width: 100%;
+}
+
+.mtFujiImageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.mtFujiImageContainer:hover .overlay {
+  opacity: 40%;
+}
+
+.mtFujiTitleText {
+  color: white;
+  font-size: 45rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+}
+
+.fbIcon {
   height: 2rem;
- }
+}
 
- .xIcon {
+.xIcon {
   height: 2rem;
- }
+}
 
- .instagramIcon {
-height: 2rem;
- }
+.instagramIcon {
+  height: 2rem;
+}
