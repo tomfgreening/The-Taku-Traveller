@@ -62,8 +62,12 @@ a {
 }
 
 .learnMoreButtonTokyo {
-  display: block;
   color: orange;
+  font-family: monospace;
+  font-size:x-large;
+  border-radius: 1rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .kyotoPhotograph {
