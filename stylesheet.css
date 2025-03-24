@@ -8,12 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
-
-
 
 .overlay {
   position: absolute;
@@ -27,6 +25,7 @@ a{
   transition: 0.5s ease;
   background-color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -60,6 +59,11 @@ a{
   color: whitesmoke;
   font-size: xx-large;
   display: none;
+}
+
+.learnMoreButtonTokyo {
+  display: block;
+  color: orange;
 }
 
 .kyotoPhotograph {
