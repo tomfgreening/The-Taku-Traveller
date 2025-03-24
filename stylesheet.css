@@ -48,6 +48,13 @@ html {
   text-align: center;
 }
 
+.tokyoParagraph {
+  text-align: center;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+}
+
 .kyotoPhotograph {
   height: auto;
   max-width: 100%;
@@ -71,6 +78,13 @@ html {
   text-align: center;
 }
 
+.kyotoParagraph{
+  text-align: center;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+}
+
 .mtFujiPhotograph {
   height: auto;
   max-width: 100%;
@@ -90,8 +104,15 @@ html {
   font-size: 45rem;
   font-weight: bolder;
   font-style: oblique;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
+}
+
+.mtFujiParagraph {
+  text-align: center;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
 }
 
 .fbIcon {
