@@ -49,6 +49,9 @@ html {
 }
 
 .tokyoParagraph {
+  text-align: center;
+  color: whitesmoke;
+  font-size: xx-large;
   display: none;
 }
 
