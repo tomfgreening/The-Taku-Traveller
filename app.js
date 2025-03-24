@@ -16,8 +16,18 @@ const learnMoreButtonKyoto = document.getElementById("learnMoreButtonKyoto");
 const kyotoParagraph = document.getElementById("kyotoParagraph");
 const kyotoTitleText = document.getElementById("kyotoTitleText");
 
-learnMoreButtonKyoto.addEventListener("click", function (event){
-  learnMoreButtonKyoto.style.display="none";
-  kyotoParagraph.style.display="block";
-  kyotoTitleText.style.display="none";
+learnMoreButtonKyoto.addEventListener("click", function (event) {
+  learnMoreButtonKyoto.style.display = "none";
+  kyotoParagraph.style.display = "block";
+  kyotoTitleText.style.display = "none";
+});
+
+const learnMoreButtonMtFuji = document.getElementById("learnMoreButtonMtFuji");
+const mtFujiParagraph = document.getElementById("mtFujiParagraph");
+const mtFujiTitleText = document.getElementById("mtFujiTitleText");
+
+learnMoreButtonMtFuji.addEventListener("click", function (event) {
+  learnMoreButtonMtFuji.style.display = "none";
+  mtFujiParagraph.style.display = "block";
+  mtFujiTitleText.style.display = "none";
 });
