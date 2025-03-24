@@ -8,17 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.tokyoPhotograph {
-  display: block;
-  height: auto;
-  max-width: 100%;
-}
-
-.tokyoImageContainer {
-  position: relative;
-  width: 100%;
-}
-
 .overlay {
   position: absolute;
   top: 0;
@@ -33,6 +22,17 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.tokyoPhotograph {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.tokyoImageContainer {
+  position: relative;
+  width: 100%;
 }
 
 .tokyoImageContainer:hover .overlay {
@@ -56,6 +56,7 @@ html {
 }
 
 .kyotoPhotograph {
+  display: block;
   height: auto;
   max-width: 100%;
 }
@@ -86,6 +87,7 @@ html {
 }
 
 .mtFujiPhotograph {
+  display: block;
   height: auto;
   max-width: 100%;
 }
