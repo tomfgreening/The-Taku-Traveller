@@ -8,6 +8,13 @@ html {
   scroll-behavior: smooth;
 }
 
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+
 .overlay {
   position: absolute;
   top: 0;
@@ -79,7 +86,7 @@ html {
   text-align: center;
 }
 
-.kyotoParagraph{
+.kyotoParagraph {
   text-align: center;
   color: whitesmoke;
   font-size: xx-large;
