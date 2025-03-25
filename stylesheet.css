@@ -31,25 +31,23 @@ a {
 
 .overlay div,
 .overlay button,
-.overlay p{
+.overlay p {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
 
 header {
-  display:flex;
-  flex-direction:row;
-  justify-content:space-evenly;
-  background-color: #EAA197;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: #eaa197;
   align-items: center;
-  padding-right: 50rem;
+  gap: 3rem;
 }
 
 .logo {
-  display: flex;
-  justify-content: left;
-  height: 150px;
-  width: 150px;
+  height: auto;
+  width: 7vw;
 }
 
 .tokyoPhotograph {
@@ -135,7 +133,7 @@ header {
   display: none;
 }
 
-.learnMoreButtonKyoto{
+.learnMoreButtonKyoto {
   color: orange;
   font-family: monospace;
   font-size: x-large;
@@ -181,7 +179,7 @@ header {
   display: none;
 }
 
-.learnMoreButtonMtFuji{
+.learnMoreButtonMtFuji {
   color: orange;
   font-family: monospace;
   font-size: x-large;
