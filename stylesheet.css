@@ -57,7 +57,6 @@ a {
   opacity: 1;
 }
 
-
 .tokyoTitleText {
   color: white;
   font-size: 45rem;
@@ -95,7 +94,13 @@ a {
 }
 
 .kyotoImageContainer:hover .overlay {
-  opacity: 40%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.kyotoImageContainer:hover .overlay div,
+.kyotoImageContainer:hover .overlay button,
+.kyotoImageContainer:hover .overlay p {
+  opacity: 1;
 }
 
 .kyotoTitleText {
