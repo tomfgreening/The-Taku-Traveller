@@ -29,6 +29,13 @@ a {
   align-items: center;
 }
 
+.overlay div,
+.overlay button,
+.overlay p{
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
 .tokyoPhotograph {
   display: block;
   height: auto;
@@ -43,6 +50,13 @@ a {
 .tokyoImageContainer:hover .overlay {
   background-color: rgba(0, 0, 0, 0.4);
 }
+
+.tokyoImageContainer:hover .overlay div,
+.tokyoImageContainer:hover .overlay button,
+.tokyoImageContainer:hover .overlay p {
+  opacity: 1;
+}
+
 
 .tokyoTitleText {
   color: white;
