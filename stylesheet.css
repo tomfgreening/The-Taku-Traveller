@@ -10,7 +10,8 @@ html {
 
 a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
+  display: block;
 }
 
 .overlay {
@@ -37,17 +38,31 @@ a {
 }
 
 header {
+  font-size: x-large;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
   background-color: #eaa197;
   align-items: center;
   gap: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  font-style: oblique;
+  font-variant: small-caps;
+  color: white;
 }
 
 .logo {
   height: auto;
   width: 7vw;
+}
+
+a {
+  font-size: larger;
+  font-style: oblique;
+  font-variant: small-caps;
+  color: black;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .tokyoPhotograph {
