@@ -36,6 +36,14 @@ a {
   transition: opacity 0.5s ease;
 }
 
+header {
+  display:flex;
+  flex-direction:row;
+  justify-content:space-evenly;
+  background-color: pink;
+  align-items: center;
+}
+
 .tokyoPhotograph {
   display: block;
   height: auto;
