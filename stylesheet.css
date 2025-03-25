@@ -140,7 +140,13 @@ a {
 }
 
 .mtFujiImageContainer:hover .overlay {
-  opacity: 40%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.mtFujiImageContainer:hover .overlay div,
+.mtFujiImageContainer:hover .overlay button,
+.mtFujiImageContainer:hover .overlay p {
+  opacity: 1;
 }
 
 .mtFujiTitleText {
