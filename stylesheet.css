@@ -40,14 +40,16 @@ header {
   display:flex;
   flex-direction:row;
   justify-content:space-evenly;
-  background-color: pink;
+  background-color: #EAA197;
   align-items: center;
-  padding-right: 100rem;
+  padding-right: 50rem;
 }
 
 .logo {
-  height: 100px;
-  width: 100px;
+  display: flex;
+  justify-content: left;
+  height: 150px;
+  width: 150px;
 }
 
 .tokyoPhotograph {
