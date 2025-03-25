@@ -45,6 +45,11 @@ header {
   padding-right: 100rem;
 }
 
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
 .tokyoPhotograph {
   display: block;
   height: auto;
