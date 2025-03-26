@@ -52,12 +52,14 @@ backButtonKyoto.addEventListener("click", function (event) {
 
 const learnMoreButtonMtFuji = document.getElementById("learnMoreButtonMtFuji");
 const mtFujiParagraph = document.getElementById("mtFujiParagraph");
+const mtFujiList = document.getElementById("mtFujiList");
 const mtFujiTitleText = document.getElementById("mtFujiTitleText");
 const backButtonMtFuji = document.getElementById("backButtonMtFuji");
 
 learnMoreButtonMtFuji.addEventListener("click", function (event) {
   learnMoreButtonMtFuji.style.display = "none";
   mtFujiParagraph.style.display = "block";
+  mtFujiList.style.display = "block";
   mtFujiTitleText.style.display = "none";
   backButtonMtFuji.style.display = "block";
 });
@@ -65,6 +67,7 @@ learnMoreButtonMtFuji.addEventListener("click", function (event) {
 backButtonMtFuji.addEventListener("click", function (event) {
   backButtonMtFuji.style.display = "none";
   mtFujiParagraph.style.display = "none";
+  mtFujiList.style.display = "none";
   mtFujiTitleText.style.display = "block";
   learnMoreButtonMtFuji.style.display = "block";
 });
