@@ -218,7 +218,7 @@ a {
   width: 5rem;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: right;
   color: white;
@@ -232,6 +232,7 @@ footer{
   font-size: x-large;
   font-style: oblique;
   font-variant: small-caps;
+  margin-right: 1%;
 }
 
 .fbIcon {
