@@ -131,6 +131,16 @@ a {
 
 .backButtonTokyo {
   display: none;
+  background-color: #ff6600;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  height: 3rem;
+  width: auto;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
 }
 
 .kyotoPhotograph {
@@ -184,6 +194,16 @@ a {
 
 .backButtonKyoto {
   display: none;
+  background-color: #ff6600;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  height: 3rem;
+  width: auto;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
 }
 
 .mtFujiPhotograph {
@@ -237,6 +257,16 @@ a {
 
 .backButtonMtFuji {
   display: none;
+  background-color: #ff6600;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  height: 3rem;
+  width: auto;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
 }
 
 footer {
