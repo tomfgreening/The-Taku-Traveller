@@ -225,7 +225,9 @@ a {
 
 .mtFujiImageContainer:hover .overlay div,
 .mtFujiImageContainer:hover .overlay button,
-.mtFujiImageContainer:hover .overlay p {
+.mtFujiImageContainer:hover .overlay p,
+.mtFujiImageContainer:hover .overlay ul
+{
   opacity: 1;
 }
 
@@ -255,6 +257,7 @@ a {
 }
 
 .mtFujiList li {
+  display: none;
   text-align: center;
   color: whitesmoke;
   font-size: xx-large;
