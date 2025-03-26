@@ -8,9 +8,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: linear-gradient(to top right, #eaa197 0%, #ff9966 72%);
+}
+
 a {
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
+  display: block;
 }
 
 .overlay {
@@ -31,9 +36,48 @@ a {
 
 .overlay div,
 .overlay button,
-.overlay p{
+.overlay p {
   opacity: 0;
   transition: opacity 0.5s ease;
+}
+
+header {
+  height: 5.75vw;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  text-shadow: 2px 2px 8px #ff0000;
+  display: flex;
+  flex-direction: row;
+  background: linear-gradient(to top right, #eaa197 0%, #ff9966 72%);
+  align-items: center;
+  gap: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+  font-style: oblique;
+  font-variant: small-caps;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
+
+.logo {
+  height: auto;
+  width: 7vw;
+}
+
+.navbar {
+  height: auto;
+  margin-left: 63%;
+}
+
+a {
+  height: auto;
+  text-shadow: 2px 2px 8px whitesmoke;
+  font-size: larger;
+  font-style: oblique;
+  font-variant: small-caps;
+  color: black;
+  text-align: left;
 }
 
 .tokyoPhotograph {
@@ -119,7 +163,7 @@ a {
   display: none;
 }
 
-.learnMoreButtonKyoto{
+.learnMoreButtonKyoto {
   color: orange;
   font-family: monospace;
   font-size: x-large;
@@ -165,7 +209,7 @@ a {
   display: none;
 }
 
-.learnMoreButtonMtFuji{
+.learnMoreButtonMtFuji {
   color: orange;
   font-family: monospace;
   font-size: x-large;
