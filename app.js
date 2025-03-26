@@ -31,3 +31,7 @@ learnMoreButtonMtFuji.addEventListener("click", function (event) {
   mtFujiParagraph.style.display = "block";
   mtFujiTitleText.style.display = "none";
 });
+
+window.addEventListener("scroll", function ()){
+  
+}
