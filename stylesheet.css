@@ -38,6 +38,7 @@ a {
 }
 
 header {
+  height: 5.75vw;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -60,6 +61,7 @@ header {
 }
 
 .navbar {
+  height: auto;
   margin-left: 63%;
 }
 
