@@ -111,7 +111,7 @@ a {
 }
 
 .tokyoParagraph {
-  text-align: center;
+  text-align:center;
   color: whitesmoke;
   font-size: xx-large;
   display: none;
@@ -218,6 +218,22 @@ a {
   width: 5rem;
 }
 
+footer {
+  display: flex;
+  justify-content: right;
+  color: white;
+  text-shadow: 2px 2px 8px #ff0000;
+  display: flex;
+  background: linear-gradient(to top right, #eaa197 0%, #ff9966 72%);
+  gap: 1.5rem;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: x-large;
+  font-style: oblique;
+  font-variant: small-caps;
+  margin-right: 1.5%;
+}
+
 .fbIcon {
   height: 2rem;
 }
@@ -227,5 +243,9 @@ a {
 }
 
 .instagramIcon {
+  height: 2rem;
+}
+
+.tiktokIcon {
   height: 2rem;
 }
