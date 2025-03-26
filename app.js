@@ -5,11 +5,13 @@ console.log(
 const learnMoreButtonTokyo = document.getElementById("learnMoreButtonTokyo");
 const tokyoParagraph = document.getElementById("tokyoParagraph");
 const tokyoTitleText = document.getElementById("tokyoTitleText");
+const backButtonTokyo = document.getElementById("backButtonTokyo");
 
 learnMoreButtonTokyo.addEventListener("click", function (event) {
   learnMoreButtonTokyo.style.display = "none";
   tokyoParagraph.style.display = "block";
   tokyoTitleText.style.display = "none";
+  backButtonTokyo.style.display = "block";
 });
 
 const learnMoreButtonKyoto = document.getElementById("learnMoreButtonKyoto");

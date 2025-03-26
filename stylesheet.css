@@ -126,6 +126,10 @@ a {
   width: 5rem;
 }
 
+.backButtonTokyo{
+  display: none;
+}
+
 .kyotoPhotograph {
   display: block;
   height: auto;
