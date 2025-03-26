@@ -8,6 +8,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background: linear-gradient(to top right, #eaa197 0%, #ff9966 72%);
+}
+
 a {
   text-decoration: none;
   color: whitesmoke;
