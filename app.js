@@ -2,6 +2,8 @@ console.log(
   "if you are reading this, the Javascript file has been successfully linked!"
 );
 
+const header = document.querySelector("header");
+
 window.addEventListener("scroll", function () {
   if (window.scrollY > 25) {
     header.style.opacity = "70%";
