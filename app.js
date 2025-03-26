@@ -35,7 +35,7 @@ learnMoreButtonMtFuji.addEventListener("click", function (event) {
 const header = document.querySelector("header");
 
 window.addEventListener("scroll", function (){
-  if (window.scrollY > 50 ) {
+  if (window.scrollY > 25 ) {
     header.style.opacity = "70%";
   }
   else {
