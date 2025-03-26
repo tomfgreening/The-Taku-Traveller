@@ -24,11 +24,20 @@ backButtonTokyo.addEventListener("click", function (event) {
 const learnMoreButtonKyoto = document.getElementById("learnMoreButtonKyoto");
 const kyotoParagraph = document.getElementById("kyotoParagraph");
 const kyotoTitleText = document.getElementById("kyotoTitleText");
+const backButtonKyoto = document.getElementById("backButtonKyoto");
 
 learnMoreButtonKyoto.addEventListener("click", function (event) {
   learnMoreButtonKyoto.style.display = "none";
   kyotoParagraph.style.display = "block";
   kyotoTitleText.style.display = "none";
+  backButtonKyoto.style.display = "block"
+});
+
+backButtonKyoto.addEventListener("click", function (event){
+  backButtonKyoto.style.display = "none";
+  kyotoParagraph.style.display = "none";
+  kyotoTitleText.style.display = "block";
+  learnMoreButtonKyoto.style.display = "block";
 });
 
 const learnMoreButtonMtFuji = document.getElementById("learnMoreButtonMtFuji");

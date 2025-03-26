@@ -176,6 +176,10 @@ a {
   width: 5rem;
 }
 
+.backButtonKyoto {
+  display: none;
+}
+
 .mtFujiPhotograph {
   display: block;
   height: auto;
