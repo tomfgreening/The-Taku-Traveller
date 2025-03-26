@@ -14,6 +14,13 @@ learnMoreButtonTokyo.addEventListener("click", function (event) {
   backButtonTokyo.style.display = "block";
 });
 
+backButtonTokyo.addEventListener("click", function (event) {
+  backButtonTokyo.style.display = "none";
+  tokyoParagraph.style.display = "none";
+  tokyoTitleText.style.display = "block";
+  learnMoreButtonTokyo.style = "block";
+});
+
 const learnMoreButtonKyoto = document.getElementById("learnMoreButtonKyoto");
 const kyotoParagraph = document.getElementById("kyotoParagraph");
 const kyotoTitleText = document.getElementById("kyotoTitleText");
@@ -36,11 +43,10 @@ learnMoreButtonMtFuji.addEventListener("click", function (event) {
 
 const header = document.querySelector("header");
 
-window.addEventListener("scroll", function (){
-  if (window.scrollY > 25 ) {
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 25) {
     header.style.opacity = "70%";
-  }
-  else {
-    header.style.opacity = "100%"
+  } else {
+    header.style.opacity = "100%";
   }
 });
