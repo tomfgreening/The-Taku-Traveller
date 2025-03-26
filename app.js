@@ -32,6 +32,14 @@ learnMoreButtonMtFuji.addEventListener("click", function (event) {
   mtFujiTitleText.style.display = "none";
 });
 
+const header = document.querySelector("header");
+
 window.addEventListener("scroll", function ()){
-  
+  if (window.scrollY > 50 ) {
+    header.style.opacity = "70%";
+  }
+  else {
+
+  }
+
 }
