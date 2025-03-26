@@ -66,5 +66,5 @@ backButtonMtFuji.addEventListener("click", function (event) {
   backButtonMtFuji.style.display = "none";
   mtFujiParagraph.style.display = "none";
   mtFujiTitleText.style.display = "block";
-  learnMoreButtonMtFuji.display = "block";
+  learnMoreButtonMtFuji.style.display = "block";
 });
