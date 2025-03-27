@@ -99,7 +99,9 @@ a {
 
 .tokyoImageContainer:hover .overlay div,
 .tokyoImageContainer:hover .overlay button,
-.tokyoImageContainer:hover .overlay p {
+.tokyoImageContainer:hover .overlay p, 
+.tokyoImageContainer:hover ul,
+.tokyoImageContainer:hover li {
   opacity: 1;
 }
 
