@@ -244,6 +244,7 @@ a {
 
 .mtFujiParagraph {
   line-height: 3rem;
+  padding: 2rem;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   color: whitesmoke;
