@@ -163,7 +163,9 @@ a {
 
 .kyotoImageContainer:hover .overlay div,
 .kyotoImageContainer:hover .overlay button,
-.kyotoImageContainer:hover .overlay p {
+.kyotoImageContainer:hover .overlay p,
+.kyotoImageContainer:hover .overlay ul,
+.kyotoImageContainer:hover .overlay li {
   opacity: 1;
 }
 
