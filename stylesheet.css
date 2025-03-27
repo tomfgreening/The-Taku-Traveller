@@ -115,10 +115,32 @@ a {
 }
 
 .tokyoParagraph {
+  line-height: 3rem;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   color: whitesmoke;
   font-size: xx-large;
   display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tokyoList {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tokyoList li {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: x-large;
   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
