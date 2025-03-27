@@ -100,8 +100,8 @@ a {
 .tokyoImageContainer:hover .overlay div,
 .tokyoImageContainer:hover .overlay button,
 .tokyoImageContainer:hover .overlay p, 
-.tokyoImageContainer:hover ul,
-.tokyoImageContainer:hover li {
+.tokyoImageContainer:hover .overlay ul,
+.tokyoImageContainer:hover .overlay li {
   opacity: 1;
 }
 

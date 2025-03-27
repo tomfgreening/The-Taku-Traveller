@@ -14,12 +14,14 @@ window.addEventListener("scroll", function () {
 
 const learnMoreButtonTokyo = document.getElementById("learnMoreButtonTokyo");
 const tokyoParagraph = document.getElementById("tokyoParagraph");
+const tokyoList = document.getElementById("tokyoList")
 const tokyoTitleText = document.getElementById("tokyoTitleText");
 const backButtonTokyo = document.getElementById("backButtonTokyo");
 
 learnMoreButtonTokyo.addEventListener("click", function (event) {
   learnMoreButtonTokyo.style.display = "none";
   tokyoParagraph.style.display = "block";
+  tokyoList.style.display = "block";
   tokyoTitleText.style.display = "none";
   backButtonTokyo.style.display = "block";
 });
@@ -27,6 +29,7 @@ learnMoreButtonTokyo.addEventListener("click", function (event) {
 backButtonTokyo.addEventListener("click", function (event) {
   backButtonTokyo.style.display = "none";
   tokyoParagraph.style.display = "none";
+  tokyoList.style.display = "none";
   tokyoTitleText.style.display = "block";
   learnMoreButtonTokyo.style = "block";
 });
