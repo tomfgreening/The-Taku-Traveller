@@ -14,12 +14,14 @@ window.addEventListener("scroll", function () {
 
 const learnMoreButtonTokyo = document.getElementById("learnMoreButtonTokyo");
 const tokyoParagraph = document.getElementById("tokyoParagraph");
+const tokyoList = document.getElementById("tokyoList")
 const tokyoTitleText = document.getElementById("tokyoTitleText");
 const backButtonTokyo = document.getElementById("backButtonTokyo");
 
 learnMoreButtonTokyo.addEventListener("click", function (event) {
   learnMoreButtonTokyo.style.display = "none";
   tokyoParagraph.style.display = "block";
+  tokyoList.style.display = "block";
   tokyoTitleText.style.display = "none";
   backButtonTokyo.style.display = "block";
 });
@@ -27,18 +29,21 @@ learnMoreButtonTokyo.addEventListener("click", function (event) {
 backButtonTokyo.addEventListener("click", function (event) {
   backButtonTokyo.style.display = "none";
   tokyoParagraph.style.display = "none";
+  tokyoList.style.display = "none";
   tokyoTitleText.style.display = "block";
   learnMoreButtonTokyo.style = "block";
 });
 
 const learnMoreButtonKyoto = document.getElementById("learnMoreButtonKyoto");
 const kyotoParagraph = document.getElementById("kyotoParagraph");
+const kyotoList = document.getElementById("kyotoList");
 const kyotoTitleText = document.getElementById("kyotoTitleText");
 const backButtonKyoto = document.getElementById("backButtonKyoto");
 
 learnMoreButtonKyoto.addEventListener("click", function (event) {
   learnMoreButtonKyoto.style.display = "none";
   kyotoParagraph.style.display = "block";
+  kyotoList.style.display = "block";
   kyotoTitleText.style.display = "none";
   backButtonKyoto.style.display = "block";
 });
@@ -46,18 +51,21 @@ learnMoreButtonKyoto.addEventListener("click", function (event) {
 backButtonKyoto.addEventListener("click", function (event) {
   backButtonKyoto.style.display = "none";
   kyotoParagraph.style.display = "none";
+  kyotoList.style.display = "none";
   kyotoTitleText.style.display = "block";
   learnMoreButtonKyoto.style.display = "block";
 });
 
 const learnMoreButtonMtFuji = document.getElementById("learnMoreButtonMtFuji");
 const mtFujiParagraph = document.getElementById("mtFujiParagraph");
+const mtFujiList = document.getElementById("mtFujiList");
 const mtFujiTitleText = document.getElementById("mtFujiTitleText");
 const backButtonMtFuji = document.getElementById("backButtonMtFuji");
 
 learnMoreButtonMtFuji.addEventListener("click", function (event) {
   learnMoreButtonMtFuji.style.display = "none";
   mtFujiParagraph.style.display = "block";
+  mtFujiList.style.display = "block";
   mtFujiTitleText.style.display = "none";
   backButtonMtFuji.style.display = "block";
 });
@@ -65,6 +73,7 @@ learnMoreButtonMtFuji.addEventListener("click", function (event) {
 backButtonMtFuji.addEventListener("click", function (event) {
   backButtonMtFuji.style.display = "none";
   mtFujiParagraph.style.display = "none";
+  mtFujiList.style.display = "none";
   mtFujiTitleText.style.display = "block";
   learnMoreButtonMtFuji.style.display = "block";
 });

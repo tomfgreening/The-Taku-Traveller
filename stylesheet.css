@@ -36,7 +36,9 @@ a {
 
 .overlay div,
 .overlay button,
-.overlay p {
+.overlay p,
+.overlay ul,
+.overlay li {
   opacity: 0;
   transition: opacity 0.5s ease;
 }
@@ -97,7 +99,9 @@ a {
 
 .tokyoImageContainer:hover .overlay div,
 .tokyoImageContainer:hover .overlay button,
-.tokyoImageContainer:hover .overlay p {
+.tokyoImageContainer:hover .overlay p, 
+.tokyoImageContainer:hover .overlay ul,
+.tokyoImageContainer:hover .overlay li {
   opacity: 1;
 }
 
@@ -111,10 +115,33 @@ a {
 }
 
 .tokyoParagraph {
+  line-height: 3rem;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   color: whitesmoke;
   font-size: xx-large;
   display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tokyoList {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.tokyoList li {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: x-large;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .learnMoreButtonTokyo {
@@ -160,7 +187,9 @@ a {
 
 .kyotoImageContainer:hover .overlay div,
 .kyotoImageContainer:hover .overlay button,
-.kyotoImageContainer:hover .overlay p {
+.kyotoImageContainer:hover .overlay p,
+.kyotoImageContainer:hover .overlay ul,
+.kyotoImageContainer:hover .overlay li {
   opacity: 1;
 }
 
@@ -174,10 +203,33 @@ a {
 }
 
 .kyotoParagraph {
+  line-height: 3rem;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   color: whitesmoke;
   font-size: xx-large;
   display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.kyotoList {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.kyotoList li {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: x-large;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .learnMoreButtonKyoto {
@@ -223,7 +275,9 @@ a {
 
 .mtFujiImageContainer:hover .overlay div,
 .mtFujiImageContainer:hover .overlay button,
-.mtFujiImageContainer:hover .overlay p {
+.mtFujiImageContainer:hover .overlay p,
+.mtFujiImageContainer:hover .overlay ul,
+.mtFujiImageContainer:hover .overlay li {
   opacity: 1;
 }
 
@@ -237,10 +291,33 @@ a {
 }
 
 .mtFujiParagraph {
+  line-height: 3rem;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   color: whitesmoke;
   font-size: xx-large;
   display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mtFujiList {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mtFujiList li {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: x-large;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
 .learnMoreButtonMtFuji {
