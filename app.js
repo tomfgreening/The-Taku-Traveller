@@ -77,3 +77,25 @@ backButtonMtFuji.addEventListener("click", function (event) {
   mtFujiTitleText.style.display = "block";
   learnMoreButtonMtFuji.style.display = "block";
 });
+
+const learnMoreButtonHokkaido = document.getElementById("learnMoreButtonHokkaido");
+const hokkaidoParagraph = document.getElementById("hokkaidoParagraph");
+const hokkaidoList = document.getElementById("hokkaidoList");
+const hokkaidoTitleText = document.getElementById("hokkaidoTitleText");
+const backButtonHokkaido = document.getElementById("backButtonHokkaido");
+
+learnMoreButtonHokkaido.addEventListener("click", function () {
+  learnMoreButtonHokkaido.style.display = "none";
+  hokkaidoParagraph.style.display = "block";
+  hokkaidoList.style.display = "block";
+  hokkaidoTitleText.style.display = "none";
+  backButtonHokkaido.style.display = "block";
+});
+
+backButtonHokkaido.addEventListener("click", function () {
+  backButtonHokkaido.style.display = "none";
+  hokkaidoParagraph.style.display = "none";
+  hokkaidoList.style.display = "none";
+  hokkaidoTitleText.style.display = "block";
+  learnMoreButtonHokkaido.style.display = "block";
+});
