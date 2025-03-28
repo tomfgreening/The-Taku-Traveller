@@ -341,6 +341,94 @@ a {
   margin-top: 2rem;
 }
 
+.hokkaidoPhotograph {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.hokkaidoImageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.hokkaidoImageContainer:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hokkaidoImageContainer:hover .overlay div,
+.hokkaidoImageContainer:hover .overlay button,
+.hokkaidoImageContainer:hover .overlay p,
+.hokkaidoImageContainer:hover .overlay ul,
+.hokkaidoImageContainer:hover .overlay li {
+  opacity: 1;
+}
+
+.hokkaidoTitleText {
+  color: white;
+  font-size: 45rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.hokkaidoParagraph {
+  line-height: 3rem;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hokkaidoList {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.hokkaidoList li {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: x-large;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.learnMoreButtonHokkaido {
+  background-color: #ff6600;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  height: 3rem;
+  width: auto;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+
+.backButtonHokkaido {
+  display: none;
+  background-color: #ff6600;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  height: 3rem;
+  width: auto;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
 footer {
   display: flex;
   justify-content: right;
