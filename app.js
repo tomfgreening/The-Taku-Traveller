@@ -14,7 +14,7 @@ window.addEventListener("scroll", function () {
 
 const learnMoreButtonTokyo = document.getElementById("learnMoreButtonTokyo");
 const tokyoParagraph = document.getElementById("tokyoParagraph");
-const tokyoList = document.getElementById("tokyoList")
+const tokyoList = document.getElementById("tokyoList");
 const tokyoTitleText = document.getElementById("tokyoTitleText");
 const backButtonTokyo = document.getElementById("backButtonTokyo");
 
@@ -78,7 +78,9 @@ backButtonMtFuji.addEventListener("click", function (event) {
   learnMoreButtonMtFuji.style.display = "block";
 });
 
-const learnMoreButtonHokkaido = document.getElementById("learnMoreButtonHokkaido");
+const learnMoreButtonHokkaido = document.getElementById(
+  "learnMoreButtonHokkaido"
+);
 const hokkaidoParagraph = document.getElementById("hokkaidoParagraph");
 const hokkaidoList = document.getElementById("hokkaidoList");
 const hokkaidoTitleText = document.getElementById("hokkaidoTitleText");
