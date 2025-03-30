@@ -101,3 +101,25 @@ backButtonHokkaido.addEventListener("click", function () {
   hokkaidoTitleText.style.display = "block";
   learnMoreButtonHokkaido.style.display = "block";
 });
+
+const learnMoreButtonOsaka = document.getElementById("learnMoreButtonOsaka");
+const osakaParagraph = document.getElementById("osakaParagraph");
+const osakaList = document.getElementById("osakaList");
+const osakaTitleText = document.getElementById("osakaTitleText");
+const backButtonOsaka = document.getElementById("backButtonOsaka");
+
+learnMoreButtonOsaka.addEventListener("click", function (event) {
+  learnMoreButtonOsaka.style.display = "none";
+  osakaParagraph.style.display = "block";
+  osakaList.style.display = "block";
+  osakaTitleText.style.display = "none";
+  backButtonOsaka.style.display = "block";
+});
+
+backButtonOsaka.addEventListener("click", function (event) {
+  backButtonOsaka.style.display = "none";
+  osakaParagraph.style.display = "none";
+  osakaList.style.display = "none";
+  osakaTitleText.style.display = "block";
+  learnMoreButtonOsaka.style.display = "block";
+});
