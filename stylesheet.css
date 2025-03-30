@@ -445,6 +445,94 @@ footer {
   margin-right: 1.5%;
 }
 
+.osakaPhotograph {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.osakaImageContainer {
+  position: relative;
+  width: 100%;
+}
+
+.osakaImageContainer:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.osakaImageContainer:hover .overlay div,
+.osakaImageContainer:hover .overlay button,
+.osakaImageContainer:hover .overlay p,
+.osakaImageContainer:hover .overlay ul,
+.osakaImageContainer:hover .overlay li {
+  opacity: 1;
+}
+
+.osakaTitleText {
+  color: white;
+  font-size: 35rem;
+  font-weight: bolder;
+  font-style: oblique;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+}
+
+.osakaParagraph {
+  line-height: 3rem;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.osakaList {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: xx-large;
+  display: none;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.osakaList li {
+  line-height: 3rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: left;
+  color: whitesmoke;
+  font-size: x-large;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.learnMoreButtonOsaka {
+  background-color: #ff6600;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  height: 3rem;
+  width: auto;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+}
+
+.backButtonOsaka {
+  display: none;
+  background-color: #ff6600;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: large;
+  border-radius: 1rem;
+  height: 3rem;
+  width: auto;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
 .fbIcon {
   height: 2rem;
 }
