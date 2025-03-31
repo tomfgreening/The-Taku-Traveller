@@ -555,4 +555,12 @@ footer {
    font-size: large;
    gap: 1rem;
   }
+
+  .logo {
+    width: 10vh;
+  }
+
+  .navbar{
+    margin-left: auto;
+  }
 }
