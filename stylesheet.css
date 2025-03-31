@@ -615,6 +615,7 @@ footer {
   .hokkaidoTitleText,
   .osakaTitleText {
     font-size: 4rem;
+    opacity: 1;
   }
 
   .tokyoParagraph,
