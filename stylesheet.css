@@ -571,6 +571,24 @@ footer {
     padding: 1rem;
   }
 
+  .overlay {
+    padding: 1rem;
+  }
+
+  .overlay p,
+  .overlay ul,
+  .overlay li,
+  .overlay .backButtonTokyo,
+  .overlay .backButtonKyoto,
+  .overlay .backButtonMtFuji,
+  .overlay .backButtonHokkaido,
+  .overlay .backButtonOsaka {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    max-width: 90%;
+    padding: 0.5rem;
+  }
+
   .tokyoImageContainer,
   .kyotoImageContainer,
   .mtFujiImageContainer,
