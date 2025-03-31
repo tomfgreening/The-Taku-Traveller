@@ -570,4 +570,12 @@ footer {
     text-align: right;
     padding: 1rem;
   }
+
+  .tokyoTitleText,
+  .kyotoTitleText,
+  .mtFujiTitleText,
+  .hokkaidoTitleText,
+  .osakaTitleText {
+    font-size: 4rem;
+  }
 }
