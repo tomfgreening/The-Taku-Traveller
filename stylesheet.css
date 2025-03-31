@@ -567,93 +567,144 @@ footer {
 
   footer {
     flex-direction: row;
-    align-items: right;
-    text-align: right;
+    align-items: left;
+    text-align: left;
     padding: 1rem;
   }
 
-  .overlay {
-    padding: 1rem;
-    opacity: 1;
-    visibility: visible;
-  }
+  @media (max-width: 768px) {
+    header {
+      height: 10vh;
+      font-size: large;
+      gap: 1rem;
+    }
+  
+    .logo {
+      width: 10vh;
+    }
+  
+    .navbar {
+      margin-left: auto;
+      padding-right: 1rem;
+    }
+  
+    footer {
+      flex-direction: row;
+      align-items: left;
+      text-align: left;
+      padding: 1rem;
+    }
+  
+    .tokyoImageContainer .overlay,
+    .kyotoImageContainer .overlay,
+    .mtFujiImageContainer .overlay,
+    .hokkaidoImageContainer .overlay,
+    .osakaImageContainer .overlay {
+      background-color: rgba(0, 0, 0, 0.2) !important;
+      opacity: 1 !important;
+    }
+  
+    .overlay div,
+    .overlay button,
+    .overlay p,
+    .overlay ul,
+    .overlay li {
+      opacity: 1 !important;
+    }
+  
+    .tokyoTitleText,
+    .kyotoTitleText,
+    .mtFujiTitleText,
+    .hokkaidoTitleText,
+    .osakaTitleText,
+    .learnMoreButtonTokyo,
+    .learnMoreButtonKyoto,
+    .learnMoreButtonMtFuji,
+    .learnMoreButtonHokkaido,
+    .learnMoreButtonOsaka {
+      display: block !important;
+      opacity: 1 !important;
+      visibility: visible !important;
+    }
+  
+    .overlay p,
+    .overlay ul,
+    .overlay li,
+    .overlay .backButtonTokyo,
+    .overlay .backButtonKyoto,
+    .overlay .backButtonMtFuji,
+    .overlay .backButtonHokkaido,
+    .overlay .backButtonOsaka {
+      font-size: 0.7rem;
+      line-height: 1rem;
+      max-width: 90%;
+      padding: 0.5rem;
+    }
+  
+    .tokyoImageContainer,
+    .kyotoImageContainer,
+    .mtFujiImageContainer,
+    .hokkaidoImageContainer,
+    .osakaImageContainer {
+      width: 100%;
+      max-height: auto;
+      overflow: hidden;
+    }
+  
+    .tokyoPhotograph,
+    .kyotoPhotograph,
+    .mtFujiPhotograph,
+    .hokkaidoPhotograph,
+    .osakaPhotograph {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .tokyoTitleText,
+    .kyotoTitleText,
+    .mtFujiTitleText,
+    .hokkaidoTitleText,
+    .osakaTitleText {
+      font-size: 4rem;
+    }
+  
+    .tokyoParagraph,
+    .kyotoParagraph,
+    .mtFujiParagraph,
+    .hokkaidoParagraph,
+    .osakaParagraph {
+      font-size: 1rem;
+      line-height: 1rem;
+    }
 
-  .overlay p,
-  .overlay ul,
-  .overlay li,
-  .overlay .backButtonTokyo,
-  .overlay .backButtonKyoto,
-  .overlay .backButtonMtFuji,
-  .overlay .backButtonHokkaido,
-  .overlay .backButtonOsaka {
-    font-size: 0.7rem;
-    line-height: 1rem;
-    max-width: 90%;
-    padding: 0.5rem;
+    .tokyoList,
+    .kyotoList,
+    .mtFujiList,
+    .hokkaidoList,
+    .osakaList {
+      font-size: 0.5rem;
+      line-height: 0.5;
+      margin-bottom: 0.5rem;
+    }
   }
-
-  .tokyoImageContainer,
-  .kyotoImageContainer,
-  .mtFujiImageContainer,
-  .hokkaidoImageContainer,
-  .osakaImageContainer {
-    width: 100%;
-    max-height: auto;
+  
+    .learnMoreButtonTokyo,
+    .learnMoreButtonKyoto,
+    .learnMoreButtonMtFuji,
+    .learnMoreButtonHokkaido,
+    .learnMoreButtonOsaka {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      height: 2.5rem;
+    }
+  
+    .backButtonTokyo,
+    .backButtonKyoto,
+    .backButtonMtFuji,
+    .backButtonHokkaido,
+    .backButtonOsaka {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+      height: 2.5rem;
+    }
   }
-
-  .tokyoPhotograph,
-  .kyotoPhotograph,
-  .mtFujiPhotograph,
-  .hokkaidoPhotograph,
-  .osakaPhotograph {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .tokyoTitleText,
-  .kyotoTitleText,
-  .mtFujiTitleText,
-  .hokkaidoTitleText,
-  .osakaTitleText {
-    font-size: 4rem;
-    opacity: 1;
-  }
-
-  .tokyoParagraph,
-  .kyotoParagraph,
-  .mtFujiParagraph,
-  .hokkaidoParagraph,
-  .osakaParagraph,
-  .tokyoList,
-  .kyotoList,
-  .mtFujiList,
-  .hokkaidoList,
-  .osakaList {
-    font-size: 1rem;
-    line-height: 1.5rem;
-    padding: 1rem;
-    text-align: center;
-  }
-
-  .learnMoreButtonTokyo,
-  .learnMoreButtonKyoto,
-  .learnMoreButtonMtFuji,
-  .learnMoreButtonHokkaido,
-  .learnMoreButtonOsaka {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    height: 2.5rem;
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .backButtonTokyo,
-  .backButtonKyoto,
-  .backButtonMtFuji,
-  .backButtonHokkaido,
-  .backButtonOsaka {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    height: 2.5rem;
-  }
-}
