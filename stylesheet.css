@@ -571,6 +571,15 @@ footer {
     padding: 1rem;
   }
 
+  .tokyoImageContainer,
+  .kyotoImageContainer,
+  .mtFujiImageContainer,
+  .hokkaidoImageContainer,
+  .osakaImageContainer {
+    width: 100%;
+    max-height: auto; 
+  }
+
   .tokyoPhotograph,
   .kyotoPhotograph,
   .mtFujiPhotograph,
