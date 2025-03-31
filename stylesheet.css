@@ -572,6 +572,17 @@ footer {
     padding: 1rem;
   }
 
+  .tokyoImageContainer .overlay,
+  .kyotoImageContainer .overlay,
+  .mtFujiImageContainer .overlay,
+  .hokkaidoImageContainer .overlay,
+  .osakaImageContainer .overlay {
+    width: 100%;
+    max-height: auto;
+    background-color: rgba(0, 0, 0, 0.4) !important;
+    opacity: 1 !important
+  }
+
   .overlay p,
   .overlay ul,
   .overlay li,
@@ -586,14 +597,7 @@ footer {
     padding: 0.5rem;
   }
 
-  .tokyoImageContainer,
-  .kyotoImageContainer,
-  .mtFujiImageContainer,
-  .hokkaidoImageContainer,
-  .osakaImageContainer {
-    width: 100%;
-    max-height: auto;
-  }
+
 
   .tokyoPhotograph,
   .kyotoPhotograph,
