@@ -572,139 +572,151 @@ footer {
     padding: 1rem;
   }
 
-  @media (max-width: 768px) {
-    header {
-      height: 10vh;
-      font-size: large;
-      gap: 1rem;
-    }
-  
-    .logo {
-      width: 10vh;
-    }
-  
-    .navbar {
-      margin-left: auto;
-      padding-right: 1rem;
-    }
-  
-    footer {
-      flex-direction: row;
-      align-items: left;
-      text-align: left;
-      padding: 1rem;
-    }
-  
-    .tokyoImageContainer .overlay,
-    .kyotoImageContainer .overlay,
-    .mtFujiImageContainer .overlay,
-    .hokkaidoImageContainer .overlay,
-    .osakaImageContainer .overlay {
-      background-color: rgba(0, 0, 0, 0.2) !important;
-      opacity: 1 !important;
-    }
-  
-    .overlay div,
-    .overlay button,
-    .overlay p,
-    .overlay ul,
-    .overlay li {
-      opacity: 1 !important;
-    }
-  
-    .tokyoTitleText,
-    .kyotoTitleText,
-    .mtFujiTitleText,
-    .hokkaidoTitleText,
-    .osakaTitleText,
-    .learnMoreButtonTokyo,
-    .learnMoreButtonKyoto,
-    .learnMoreButtonMtFuji,
-    .learnMoreButtonHokkaido,
-    .learnMoreButtonOsaka {
-      display: block !important;
-      opacity: 1 !important;
-      visibility: visible !important;
-    }
-  
-    .overlay p,
-    .overlay ul,
-    .overlay li,
-    .overlay .backButtonTokyo,
-    .overlay .backButtonKyoto,
-    .overlay .backButtonMtFuji,
-    .overlay .backButtonHokkaido,
-    .overlay .backButtonOsaka {
-      font-size: 0.7rem;
-      line-height: 1rem;
-      max-width: 90%;
-      padding: 0.5rem;
-    }
-  
-    .tokyoImageContainer,
-    .kyotoImageContainer,
-    .mtFujiImageContainer,
-    .hokkaidoImageContainer,
-    .osakaImageContainer {
-      width: 100%;
-      max-height: auto;
-      overflow: hidden;
-    }
-  
-    .tokyoPhotograph,
-    .kyotoPhotograph,
-    .mtFujiPhotograph,
-    .hokkaidoPhotograph,
-    .osakaPhotograph {
-      max-width: 100%;
-      height: auto;
-    }
-  
-    .tokyoTitleText,
-    .kyotoTitleText,
-    .mtFujiTitleText,
-    .hokkaidoTitleText,
-    .osakaTitleText {
-      font-size: 4rem;
-    }
-  
-    .tokyoParagraph,
-    .kyotoParagraph,
-    .mtFujiParagraph,
-    .hokkaidoParagraph,
-    .osakaParagraph {
-      font-size: 1rem;
-      line-height: 1rem;
-    }
+  .overlay {
+    overflow-y: auto;
+    max-height: 100vh;
+    padding: 0.5rem;
+  }
 
-    .tokyoList,
-    .kyotoList,
-    .mtFujiList,
-    .hokkaidoList,
-    .osakaList {
-      font-size: 0.5rem;
-      line-height: 0.5;
-      margin-bottom: 0.5rem;
-    }
+  .logo {
+    width: 10vh;
   }
-  
-    .learnMoreButtonTokyo,
-    .learnMoreButtonKyoto,
-    .learnMoreButtonMtFuji,
-    .learnMoreButtonHokkaido,
-    .learnMoreButtonOsaka {
-      font-size: 1rem;
-      padding: 0.5rem 1rem;
-      height: 2.5rem;
-    }
-  
-    .backButtonTokyo,
-    .backButtonKyoto,
-    .backButtonMtFuji,
-    .backButtonHokkaido,
-    .backButtonOsaka {
-      font-size: 1rem;
-      padding: 0.5rem 1rem;
-      height: 2.5rem;
-    }
+
+  .navbar {
+    margin-left: auto;
+    padding-right: 1rem;
   }
+
+  footer {
+    flex-direction: row;
+    align-items: left;
+    text-align: left;
+    padding: 1rem;
+  }
+
+  .tokyoImageContainer .overlay,
+  .kyotoImageContainer .overlay,
+  .mtFujiImageContainer .overlay,
+  .hokkaidoImageContainer .overlay,
+  .osakaImageContainer .overlay {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+    opacity: 1 !important;
+  }
+
+  .overlay div,
+  .overlay button,
+  .overlay p,
+  .overlay ul,
+  .overlay li {
+    opacity: 1;
+  }
+
+  .tokyoTitleText,
+  .kyotoTitleText,
+  .mtFujiTitleText,
+  .hokkaidoTitleText,
+  .osakaTitleText,
+  .learnMoreButtonTokyo,
+  .learnMoreButtonKyoto,
+  .learnMoreButtonMtFuji,
+  .learnMoreButtonHokkaido,
+  .learnMoreButtonOsaka {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .overlay.hide-elements .tokyoTitleText,
+  .overlay.hide-elements .kyotoTitleText,
+  .overlay.hide-elements .mtFujiTitleText,
+  .overlay.hide-elements .hokkaidoTitleText,
+  .overlay.hide-elements .osakaTitleText,
+  .overlay.hide-elements .learnMoreButtonTokyo,
+  .overlay.hide-elements .learnMoreButtonKyoto,
+  .overlay.hide-elements .learnMoreButtonMtFuji,
+  .overlay.hide-elements .learnMoreButtonHokkaido,
+  .overlay.hide-elements .learnMoreButtonOsaka {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .overlay p,
+  .overlay ul,
+  .overlay li,
+  .overlay .backButtonTokyo,
+  .overlay .backButtonKyoto,
+  .overlay .backButtonMtFuji,
+  .overlay .backButtonHokkaido,
+  .overlay .backButtonOsaka {
+    font-size: 0.7rem;
+    line-height: 1rem;
+    max-width: 90%;
+    padding: 0.5rem;
+  }
+
+  .tokyoImageContainer,
+  .kyotoImageContainer,
+  .mtFujiImageContainer,
+  .hokkaidoImageContainer,
+  .osakaImageContainer {
+    width: 100%;
+    max-height: auto;
+    overflow: hidden;
+  }
+
+  .tokyoPhotograph,
+  .kyotoPhotograph,
+  .mtFujiPhotograph,
+  .hokkaidoPhotograph,
+  .osakaPhotograph {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tokyoTitleText,
+  .kyotoTitleText,
+  .mtFujiTitleText,
+  .hokkaidoTitleText,
+  .osakaTitleText {
+    font-size: 4rem;
+  }
+
+  .tokyoParagraph,
+  .kyotoParagraph,
+  .mtFujiParagraph,
+  .hokkaidoParagraph,
+  .osakaParagraph {
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+
+  .tokyoList,
+  .kyotoList,
+  .mtFujiList,
+  .hokkaidoList,
+  .osakaList {
+    font-size: 0.5rem;
+    line-height: 0.5;
+    margin-bottom: 0.5rem;
+  }
+
+  .learnMoreButtonTokyo,
+  .learnMoreButtonKyoto,
+  .learnMoreButtonMtFuji,
+  .learnMoreButtonHokkaido,
+  .learnMoreButtonOsaka {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    height: 2.5rem;
+  }
+
+  .backButtonTokyo,
+  .backButtonKyoto,
+  .backButtonMtFuji,
+  .backButtonHokkaido,
+  .backButtonOsaka {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    height: 2.5rem;
+  }
+}
