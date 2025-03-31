@@ -571,14 +571,6 @@ footer {
     padding: 1rem;
   }
 
-  .tokyoTitleText,
-  .kyotoTitleText,
-  .mtFujiTitleText,
-  .hokkaidoTitleText,
-  .osakaTitleText {
-    font-size: 4rem;
-  }
-
   .tokyoPhotograph,
   .kyotoPhotograph,
   .mtFujiPhotograph,
@@ -588,4 +580,27 @@ footer {
     height: auto;
   }
   
+  .tokyoTitleText,
+  .kyotoTitleText,
+  .mtFujiTitleText,
+  .hokkaidoTitleText,
+  .osakaTitleText {
+    font-size: 4rem;
+  }
+
+  .tokyoParagraph,
+  .kyotoParagraph,
+  .mtFujiParagraph,
+  .hokkaidoParagraph,
+  .osakaParagraph,
+  .tokyoList,
+  .kyotoList,
+  .mtFujiList,
+  .hokkaidoList,
+  .osakaList {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding: 1rem;
+  }
+
 }
