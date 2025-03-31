@@ -533,6 +533,8 @@ footer {
   margin-top: 2rem;
 }
 
+@media(max-width: 768px){}
+
 .fbIcon {
   height: 2rem;
 }
