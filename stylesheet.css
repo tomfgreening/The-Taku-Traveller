@@ -603,4 +603,18 @@ footer {
     padding: 1rem;
   }
 
+  .learnMoreButtonTokyo,
+  .learnMoreButtonKyoto,
+  .learnMoreButtonMtFuji,
+  .learnMoreButtonHokkaido,
+  .learnMoreButtonOsaka,
+  .backButtonTokyo,
+  .backButtonKyoto,
+  .backButtonMtFuji,
+  .backButtonHokkaido,
+  .backButtonOsaka {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    height: 2.5rem;
+  }
 }
