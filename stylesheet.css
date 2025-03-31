@@ -576,6 +576,9 @@ footer {
     overflow-y: auto;
     max-height: 100vh;
     padding: 0.5rem;
+    justify-content: safe center !important;
+    align-content: flex-start !important;
+    padding-top: 40px !important;
   }
 
   .logo {
@@ -719,4 +722,5 @@ footer {
     padding: 0.5rem 1rem;
     height: 2.5rem;
   }
-}
+  }
+
