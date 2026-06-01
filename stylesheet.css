@@ -38,7 +38,9 @@ body {
 }
 
 header {
-  height: 5.75vw;
+  min-height: 80px;
+  height: auto;
+  padding: 0.5rem 1rem;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -63,9 +65,9 @@ header {
 }
 
 .navbar {
-  height: auto;
-  margin-left: 63%;
+  margin-left: auto;
 }
+
 
 a {
   height: auto;
@@ -102,7 +104,7 @@ a {
 
 .tokyoTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -190,7 +192,7 @@ a {
 
 .kyotoTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -278,7 +280,7 @@ a {
 
 .mtFujiTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -366,7 +368,7 @@ a {
 
 .hokkaidoTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -470,7 +472,7 @@ footer {
 
 .osakaTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -722,5 +724,4 @@ footer {
     padding: 0.5rem 1rem;
     height: 2.5rem;
   }
-  }
-
+}
