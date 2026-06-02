@@ -655,74 +655,70 @@ footer {
   .osakaTitleText {
     font-size: clamp(3rem, 12vw, 5rem);
   }
-
 }
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  header {
+    gap: 1rem;
+    font-size: large;
+  }
 
-    header {
-      gap: 1rem;
-      font-size: large;
-    }
-  
-    .logo {
-      width: 12vw;
-    }
-  
-    a {
-      font-size: 0.9rem;
-    }
-  
-    .tokyoParagraph,
-    .kyotoParagraph,
-    .mtFujiParagraph,
-    .hokkaidoParagraph,
-    .osakaParagraph {
-      font-size: 0.6rem;
-      line-height: 1rem;
-      padding: 0.5rem;
-      max-width: 90%;
-    }
-  
-    .tokyoList,
-    .kyotoList,
-    .mtFujiList,
-    .hokkaidoList,
-    .osakaList {
-      font-size: 0.7rem;
-      line-height: 1rem;
-    }
-  
-    .tokyoList li,
-    .kyotoList li,
-    .mtFujiList li,
-    .hokkaidoList li,
-    .osakaList li {
-      font-size: 0.6rem;
-      line-height: 1rem;
-    }
-  
-    .learnMoreButtonTokyo,
-    .learnMoreButtonKyoto,
-    .learnMoreButtonMtFuji,
-    .learnMoreButtonHokkaido,
-    .learnMoreButtonOsaka,
-    .backButtonTokyo,
-    .backButtonKyoto,
-    .backButtonMtFuji,
-    .backButtonHokkaido,
-    .backButtonOsaka {
-      font-size: 0.8rem;
-      padding: 0.5rem 1rem;
-      height: auto;
-    }
-  
-    .tokyoTitleText,
-    .kyotoTitleText,
-    .mtFujiTitleText,
-    .hokkaidoTitleText,
-    .osakaTitleText {
-      font-size: clamp(3rem, 12vw, 5rem);
-    }
-  
+  .logo {
+    width: 12vw;
+  }
+
+  a {
+    font-size: 0.9rem;
+  }
+
+  .tokyoParagraph,
+  .kyotoParagraph,
+  .mtFujiParagraph,
+  .hokkaidoParagraph,
+  .osakaParagraph {
+    font-size: 0.6rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+    max-width: 90%;
+  }
+
+  .tokyoList,
+  .kyotoList,
+  .mtFujiList,
+  .hokkaidoList,
+  .osakaList {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+
+  .tokyoList li,
+  .kyotoList li,
+  .mtFujiList li,
+  .hokkaidoList li,
+  .osakaList li {
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+
+  .learnMoreButtonTokyo,
+  .learnMoreButtonKyoto,
+  .learnMoreButtonMtFuji,
+  .learnMoreButtonHokkaido,
+  .learnMoreButtonOsaka,
+  .backButtonTokyo,
+  .backButtonKyoto,
+  .backButtonMtFuji,
+  .backButtonHokkaido,
+  .backButtonOsaka {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+  }
+
+  .tokyoTitleText,
+  .kyotoTitleText,
+  .mtFujiTitleText,
+  .hokkaidoTitleText,
+  .osakaTitleText {
+    font-size: clamp(3rem, 12vw, 5rem);
+  }
 }
