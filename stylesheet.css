@@ -38,7 +38,9 @@ body {
 }
 
 header {
-  height: 5.75vw;
+  min-height: 80px;
+  height: auto;
+  padding: 0.5rem 1rem;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -63,8 +65,7 @@ header {
 }
 
 .navbar {
-  height: auto;
-  margin-left: 63%;
+  margin-left: auto;
 }
 
 a {
@@ -102,7 +103,7 @@ a {
 
 .tokyoTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -190,7 +191,7 @@ a {
 
 .kyotoTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -278,7 +279,7 @@ a {
 
 .mtFujiTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -366,7 +367,7 @@ a {
 
 .hokkaidoTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -470,7 +471,7 @@ footer {
 
 .osakaTitleText {
   color: white;
-  font-size: 35rem;
+  font-size: clamp(4rem, 18vw, 35rem);
   font-weight: bolder;
   font-style: oblique;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -549,130 +550,101 @@ footer {
   height: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   header {
-    height: 10vh;
-    font-size: large;
+    gap: 1.5rem;
+    font-size: x-large;
+  }
+
+  .logo {
+    width: 9vw;
+  }
+
+  a {
+    font-size: 1.1rem;
+  }
+
+  .tokyoParagraph,
+  .kyotoParagraph,
+  .mtFujiParagraph,
+  .hokkaidoParagraph,
+  .osakaParagraph {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .tokyoList,
+  .kyotoList,
+  .mtFujiList,
+  .hokkaidoList,
+  .osakaList {
+    font-size: 1.25rem;
+    line-height: 2rem;
+  }
+
+  .tokyoList li,
+  .kyotoList li,
+  .mtFujiList li,
+  .hokkaidoList li,
+  .osakaList li {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+  }
+
+  header {
     gap: 1rem;
+    font-size: large;
   }
 
   .logo {
-    width: 10vh;
+    width: 12vw;
   }
 
-  .navbar {
-    margin-left: auto;
-    padding-right: 1rem;
+  a {
+    font-size: 0.9rem;
   }
 
-  footer {
-    flex-direction: row;
-    align-items: left;
-    text-align: left;
+  .tokyoParagraph,
+  .kyotoParagraph,
+  .mtFujiParagraph,
+  .hokkaidoParagraph,
+  .osakaParagraph {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
     padding: 1rem;
+    max-width: 90%;
   }
 
-  .overlay {
-    overflow-y: auto;
-    max-height: 100vh;
-    padding: 0.5rem;
-    justify-content: safe center !important;
-    align-content: flex-start !important;
-    padding-top: 40px !important;
+  .tokyoList,
+  .kyotoList,
+  .mtFujiList,
+  .hokkaidoList,
+  .osakaList {
+    font-size: 0.85rem;
+    line-height: 1.3rem;
   }
 
-  .logo {
-    width: 10vh;
+  .tokyoList li,
+  .kyotoList li,
+  .mtFujiList li,
+  .hokkaidoList li,
+  .osakaList li {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
   }
 
-  .navbar {
-    margin-left: auto;
-    padding-right: 1rem;
-  }
-
-  footer {
-    flex-direction: row;
-    align-items: left;
-    text-align: left;
-    padding: 1rem;
-  }
-
-  .tokyoImageContainer .overlay,
-  .kyotoImageContainer .overlay,
-  .mtFujiImageContainer .overlay,
-  .hokkaidoImageContainer .overlay,
-  .osakaImageContainer .overlay {
-    background-color: rgba(0, 0, 0, 0.2) !important;
-    opacity: 1 !important;
-  }
-
-  .overlay div,
-  .overlay button,
-  .overlay p,
-  .overlay ul,
-  .overlay li {
-    opacity: 1;
-  }
-
-  .tokyoTitleText,
-  .kyotoTitleText,
-  .mtFujiTitleText,
-  .hokkaidoTitleText,
-  .osakaTitleText,
   .learnMoreButtonTokyo,
   .learnMoreButtonKyoto,
   .learnMoreButtonMtFuji,
   .learnMoreButtonHokkaido,
-  .learnMoreButtonOsaka {
-    display: block;
-    opacity: 1;
-    visibility: visible;
-  }
-
-  .overlay.hide-elements .tokyoTitleText,
-  .overlay.hide-elements .kyotoTitleText,
-  .overlay.hide-elements .mtFujiTitleText,
-  .overlay.hide-elements .hokkaidoTitleText,
-  .overlay.hide-elements .osakaTitleText,
-  .overlay.hide-elements .learnMoreButtonTokyo,
-  .overlay.hide-elements .learnMoreButtonKyoto,
-  .overlay.hide-elements .learnMoreButtonMtFuji,
-  .overlay.hide-elements .learnMoreButtonHokkaido,
-  .overlay.hide-elements .learnMoreButtonOsaka {
-    opacity: 0;
-    visibility: hidden;
-  }
-
-  .overlay p,
-  .overlay ul,
-  .overlay li,
-  .overlay .backButtonTokyo,
-  .overlay .backButtonKyoto,
-  .overlay .backButtonMtFuji,
-  .overlay .backButtonHokkaido,
-  .overlay .backButtonOsaka {
-    font-size: 0.7rem;
-    line-height: 1rem;
-    max-width: 90%;
-    padding: 0.5rem;
-  }
-
-  .tokyoImageContainer,
-  .kyotoImageContainer,
-  .mtFujiImageContainer,
-  .hokkaidoImageContainer,
-  .osakaImageContainer {
-    width: 100%;
-    max-height: auto;
-    overflow: hidden;
-  }
-
-  .tokyoPhotograph,
-  .kyotoPhotograph,
-  .mtFujiPhotograph,
-  .hokkaidoPhotograph,
-  .osakaPhotograph {
-    max-width: 100%;
+  .learnMoreButtonOsaka,
+  .backButtonTokyo,
+  .backButtonKyoto,
+  .backButtonMtFuji,
+  .backButtonHokkaido,
+  .backButtonOsaka {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
     height: auto;
   }
 
@@ -681,7 +653,22 @@ footer {
   .mtFujiTitleText,
   .hokkaidoTitleText,
   .osakaTitleText {
-    font-size: 4rem;
+    font-size: clamp(3rem, 12vw, 5rem);
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    gap: 1rem;
+    font-size: large;
+  }
+
+  .logo {
+    width: 12vw;
+  }
+
+  a {
+    font-size: 0.9rem;
   }
 
   .tokyoParagraph,
@@ -689,8 +676,10 @@ footer {
   .mtFujiParagraph,
   .hokkaidoParagraph,
   .osakaParagraph {
-    font-size: 1rem;
+    font-size: 0.6rem;
     line-height: 1rem;
+    padding: 0.5rem;
+    max-width: 90%;
   }
 
   .tokyoList,
@@ -698,29 +687,38 @@ footer {
   .mtFujiList,
   .hokkaidoList,
   .osakaList {
-    font-size: 0.5rem;
-    line-height: 0.5;
-    margin-bottom: 0.5rem;
+    font-size: 0.6rem;
+    line-height: 1rem;
+  }
+
+  .tokyoList li,
+  .kyotoList li,
+  .mtFujiList li,
+  .hokkaidoList li,
+  .osakaList li {
+    font-size: 0.6rem;
+    line-height: 1rem;
   }
 
   .learnMoreButtonTokyo,
   .learnMoreButtonKyoto,
   .learnMoreButtonMtFuji,
   .learnMoreButtonHokkaido,
-  .learnMoreButtonOsaka {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    height: 2.5rem;
-  }
-
+  .learnMoreButtonOsaka,
   .backButtonTokyo,
   .backButtonKyoto,
   .backButtonMtFuji,
   .backButtonHokkaido,
   .backButtonOsaka {
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    height: 2.5rem;
-  }
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
   }
 
+  .tokyoTitleText,
+  .kyotoTitleText,
+  .mtFujiTitleText,
+  .hokkaidoTitleText,
+  .osakaTitleText {
+    font-size: clamp(3rem, 12vw, 5rem);
+  }
+}
